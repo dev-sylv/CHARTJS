@@ -37,7 +37,49 @@ const labels = ["January", "February", "March", "April", "May", "June", "July"];
 
 const NumberArr1 = [1, 4, 48, 394, 848, 447, 984];
 const NumberArr2 = [4, 5, 584, 283, 7, 984, 939];
-const RandomNumber = Math.floor(Math.random() * 1000);
+
+const Array1 = [
+  {
+    item: "Rice",
+    cost: 500,
+  },
+  {
+    item: "Beans",
+    cost: 1000,
+  },
+  {
+    item: "Yam",
+    cost: 1500,
+  },
+  {
+    item: "Sphag",
+    cost: 2000,
+  },
+  {
+    item: "Tomatoes",
+    cost: 2500,
+  },
+  {
+    item: "Eggs",
+    cost: 3000,
+  },
+  {
+    item: "Bread",
+    cost: 7000,
+  },
+  {
+    item: "Okpa",
+    cost: 4000,
+  },
+  {
+    item: "Indomie",
+    cost: 1800,
+  },
+  {
+    item: "Cake",
+    cost: 9000,
+  },
+];
 
 export const data = {
   labels,

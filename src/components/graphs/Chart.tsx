@@ -113,7 +113,7 @@ export const data = {
       label: "All Cost",
       //   data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
       data: Array1.map((el: any) => el?.cost),
-      backgroundColor: "rgba(53, 162, 235, 0.5)",
+      backgroundColor: "rgba(235, 120, 53, 0.849)",
     },
   ],
 };
@@ -121,9 +121,11 @@ export const data = {
 export function App() {
   return (
     <div>
-      <Bar options={options} data={data} />
-      <p>{JSON.stringify(MyItemData)}</p>
-      <p>{JSON.stringify(MyCostData)}</p>
+      <div style={{ width: "100%", height: "90vh" }}>
+        <Bar options={options} data={data} />
+      </div>
+      {/* <p>{JSON.stringify(MyItemData)}</p>
+      <p>{JSON.stringify(MyCostData)}</p> */}
     </div>
   );
 }

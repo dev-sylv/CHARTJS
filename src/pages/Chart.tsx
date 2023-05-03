@@ -1,5 +1,5 @@
 import React from "react";
-import { App } from "../components/graphs/Chart";
+import { App } from "../components/graphs/BarChart";
 
 const Chart = () => {
   return (

@@ -41,7 +41,7 @@ const NumberArr2 = [4, 5, 584, 283, 7, 984, 939];
 const MyItemData: any = [];
 const MyCostData: any = [];
 
-const Array1 = [
+export const MyArray1 = [
   {
     item: "Rice",
     cost: 500,
@@ -100,7 +100,7 @@ Array.from({ length: 10 }, () => {
 });
 
 export const data = {
-  labels: Array1.map((el: any) => el?.item),
+  labels: MyArray1.map((el: any) => el?.item),
   datasets: [
     {
       label: "Dataset 1",
@@ -112,7 +112,7 @@ export const data = {
     {
       label: "All Cost",
       //   data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
-      data: Array1.map((el: any) => el?.cost),
+      data: MyArray1.map((el: any) => el?.cost),
       backgroundColor: "rgba(235, 120, 53, 0.849)",
     },
   ],

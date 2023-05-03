@@ -32,5 +32,16 @@ export const data = {
 };
 
 export function App() {
-  return <Doughnut data={data} />;
+  return (
+    <div
+      style={{
+        width: "100%",
+        height: "90vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}>
+      <Doughnut data={data} />;
+    </div>
+  );
 }
